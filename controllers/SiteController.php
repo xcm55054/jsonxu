@@ -123,8 +123,6 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
-        echo "第一个版本";
-        echo "第三次";
         return $this->render('about');
     }
 }
