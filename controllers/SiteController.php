@@ -152,5 +152,8 @@ class SiteController extends Controller
     public function actionTest4(){
         echo 5;
     }
+    public function actionTest5(){
+        echo 6;
+    }
 
 }
