@@ -126,4 +126,22 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionRebase(){
+        echo 1;
+        echo 2;
+        echo 3;
+    }
+
+    public function actionTest(){
+        echo 1;
+    }
+
+    public function actionTest1(){
+        echo 2;
+    }
+
+    public function actionTest2(){
+        echo 3;
+    }
 }
