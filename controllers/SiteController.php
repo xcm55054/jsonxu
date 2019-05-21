@@ -128,5 +128,6 @@ class SiteController extends Controller
 
     public function actionRebase(){
         echo 1;
+        echo 2;
     }
 }
